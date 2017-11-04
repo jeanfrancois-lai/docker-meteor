@@ -1,4 +1,4 @@
-FROM abernix/meteord:base
+FROM abernix/meteord:node-8.4.0-base
 LABEL maintainer "jfrancois@clapnclip.com"
 
 RUN echo "deb http://www.deb-multimedia.org jessie main non-free" >> /etc/apt/sources.list
